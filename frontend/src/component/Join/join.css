@@ -1,0 +1,67 @@
+.joinPage {
+    background-color: #494D5F;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joinContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.joinContainer > img {
+    width: 10vmax;
+}
+
+.joinContainer > h1 {
+    color: #8458B3;
+    font-size: 2.5vmax;
+    width: 25vmax;
+    border-bottom: 0.2vmax solid #8458B3;
+    text-align: center;
+    padding: 1vmax;
+    font-family: "Roboto";
+    box-sizing: border-box;
+
+
+
+}
+
+#joinInput {
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    margin: 2vmax;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+
+}
+
+.joinBtn {
+    background-color: #8458B3;
+    box-sizing: border-box;
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    color: white;
+    font-family: "Roboto";
+    transition: all 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
+
+    
+}
+
+.joinBtn:hover{
+   background-color: #7313d8;
+}
